@@ -143,6 +143,8 @@ The project generates:
 ### Revenue by City
 
 - Bar Chart showing city-wise revenue distribution
+- <img width="1102" height="592" alt="image" src="https://github.com/user-attachments/assets/7def8ccd-1e11-4595-a0ac-297ca263f21d" />
+
 
 ### Top Selling Products
 
@@ -154,6 +156,7 @@ The project generates:
 
 ### Top 3 Best Selling Products
 
+
 ```sql
 SELECT
     product_name,
@@ -163,6 +166,8 @@ GROUP BY product_name
 ORDER BY total_quantity DESC
 LIMIT 3;
 ```
+<img width="706" height="428" alt="image" src="https://github.com/user-attachments/assets/ef0ff06b-cf3b-40b7-87e0-c1d10a6cf452" />
+
 
 ### Revenue Per Store Per Day
 
